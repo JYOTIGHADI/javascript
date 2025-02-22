@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DOM</title>
+    <title>Day 13</title>
 
     <style>
       * {
@@ -21,7 +21,7 @@
         padding: 10px;
         display: flex;
         flex-direction: column;
-        border: 1px solid black;
+         border: 1px solid black; 
       }
       #username,
       #password {
@@ -38,7 +38,7 @@
       #button {
         width: 30%;
         margin: 15px auto;
-        border: 1px solid black;
+        border: 1px solid black; 
         height: 25px;
       }
     </style>
@@ -78,17 +78,17 @@
 
       let users = JSON.parse(localStorage.getItem("users")) || [];
 
-      for (let i = 0; i < users.length; i++) {
-        if (users[i].username === userName) {
-          alert("you already add in list");
-          return;
-        }
-      }
+      // for (let i = 0; i < users.length; i++) {
+      //   if (users[i].username === userName) {
+      //    alert("you already add in list");
+      //     return;
+      //   }
+      // }
 
       users.push({ username: userName, password: userPassword });
       localStorage.setItem("users", JSON.stringify(users));
 
-      alert("your name is adding the list");
+      // alert("your name is adding the list");
 
       document.getElementById("username").value = "";
       document.getElementById("password").value = "";
