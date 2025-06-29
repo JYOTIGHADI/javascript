@@ -2,11 +2,11 @@
 
 // 1. Write a program to check if a number is positive, negative, or zero using if-else.
 
-number = Number(5); 
+ var numbers =(6) 
 
-if (number > 0) {
+if (numbers > 0) {
     console.log("The number is positive.");
-} else if (number < 0) {
+} else if (numbers < 0) {
     console.log("The number is negative.");
 } else {
     console.log("The number is zero.");
@@ -14,9 +14,9 @@ if (number > 0) {
 
 // 2. Check whether a number is even or odd using if-else.
 
-number = Number(15);
+ var num = (15);
 
-if (number % 2 === 0) {
+if (num % 2 === 0) {
     console.log("The number is even.");
 } else {
     console.log("The number is odd.");
@@ -106,28 +106,27 @@ switch (day) {
 
 // 6. Create a program using switch that takes a character input and prints whether it is a vowel (a, e, i, o, u) or consonant.
 
-var vowel = 3;
+var vowel = a;
 switch (vowel) {
-    case 1:
-        console.log("a");
+    case a:
+        console.log("is a vowel");
         break;
-    case 2:
-        console.log("e");
+    case e:
+        console.log("is a vowel");
         break;
-    case 3:
-        console.log("i");
+    case i:
+        console.log("is a vowel");
         break;
-    case 4:
-        console.log("o");
+    case o:
+        console.log("is a vowel");
         break;
-    case 5:
-        console.log("u");
+    case u:
+        console.log("is a vowel");
         break;
  
     default:
         console.log("Invalid vowel. Please enter a number between a,e,i,o,u.")
  }
-
 
 
 //  7. Use if-else to check if a year is a leap year or not.
@@ -217,7 +216,7 @@ while (j >= 1) {
 
 // 3. Write a program that prints the multiplication table of a number (e.g., 7) using a for loop.
 
-let num = 7;
+let no = 7;
 
 for (let i = 1; i <= 10; i++) {
   console.log(num + " x " + i + " = " + (num * i));
@@ -233,21 +232,22 @@ for (let i = 1; i <= 100; i++) {
 
 // 5.Create a program to count how many numbers between 1 and 100 are divisible by both 3 and 5 using for and if.
 
-let count = 0;
+ let coun = 0;
 
 for (let i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
-    count++;
+    coun++;
   }
 }
 
-console.log("Count of numbers divisible by both 3 and 5 between 1 and 100 is: " + count);
+console.log("Count of numbers divisible by both 3 and 5 between 1 and 100 is: " + coun);
 
 
 // 6. Print the factorial of a number using a while loop.
 let number = 5;
 let factorial = 1;
-let i = 1;
+// let i = 1; // 🔧 i must be declared and initialized
+
 while (i <= number) {
   factorial *= i;
   i++;
@@ -294,15 +294,16 @@ for (let i = 1; i <= 50; i++) {
 
 // 9. Print the first 10 Fibonacci numbers using a while loop.
 
-let n1 = 0, n2 = 1, countt = 0;
+let n1 = 0, n2 = 1, count = 0; // Use 'count' or fix variable name
 
-while (countt < 10) {
+while (count < 10) {
   console.log(n1);
   let next = n1 + n2;
   n1 = n2;
   n2 = next;
-  count++;
+  count++; // 🟢 This works now
 }
+
 
 // 10. Using a for loop, print the square of numbers from 1 to 10 and categorize them using if:
 // ● Less than 20: “Small”
