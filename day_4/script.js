@@ -12,6 +12,8 @@ if (numbers > 0) {
     console.log("The number is zero.");
 }
 
+
+
 // 2. Check whether a number is even or odd using if-else.
 
  var num = (15);
@@ -205,6 +207,8 @@ for( var i = 1; i <= 50; i++ ){
     }
 }
 
+
+
 // 2. Using a while loop, print numbers from 10 to 1 in reverse order.
 
 let j = 10;
@@ -230,6 +234,8 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 
+
+
 // 5.Create a program to count how many numbers between 1 and 100 are divisible by both 3 and 5 using for and if.
 
  let coun = 0;
@@ -244,16 +250,16 @@ console.log("Count of numbers divisible by both 3 and 5 between 1 and 100 is: " 
 
 
 // 6. Print the factorial of a number using a while loop.
+
 let number = 5;
 let factorial = 1;
-// let i = 1; // 🔧 i must be declared and initialized
-
 while (i <= number) {
   factorial *= i;
   i++;
 }
 
 console.log("Factorial of " + number + " is: " + factorial);
+
 
 // 7. Use a for loop to find the sum of all numbers from 1 to 100.
 
@@ -264,6 +270,8 @@ for (let i = 1; i <= 100; i++) {
 }
 
 console.log("Sum of numbers from 1 to 100 is: " + sum);
+
+
 
 // 8. Write a program using a loop and switch to print:
 // ○ "Fizz" if the number is divisible by 3
@@ -292,6 +300,8 @@ for (let i = 1; i <= 50; i++) {
   }
 }
 
+
+
 // 9. Print the first 10 Fibonacci numbers using a while loop.
 
 let n1 = 0, n2 = 1, count = 0; // Use 'count' or fix variable name
@@ -301,8 +311,9 @@ while (count < 10) {
   let next = n1 + n2;
   n1 = n2;
   n2 = next;
-  count++; // 🟢 This works now
+  count++; 
 }
+
 
 
 // 10. Using a for loop, print the square of numbers from 1 to 10 and categorize them using if:
