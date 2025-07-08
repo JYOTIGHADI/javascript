@@ -155,7 +155,7 @@ console.log("-----------------------");
 // 16. Output: SyntaxError
 
 let X = 10;
-var x = 20; // ❌ Error: Identifier 'x' has already been declared
+var x = 20; 
 console.log("-----------------------");
 
 // 17. Remove duplicates from array without Set. Input: [1, 2, 2, 3, 4, 1] Output: [1, 2, 3, 4]
@@ -262,6 +262,7 @@ for (let i = 0; i < arr.length - 1; i++) {
 
 console.log(isSorted); 
 console.log("-----------------------");
+
 // 25. Check if a word has repeating characters using flag. Input: "coding" Output: false
 // Use a flag and object/map to track character repetition.
 
