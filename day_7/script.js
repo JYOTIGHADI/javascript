@@ -66,6 +66,7 @@ for (let i = 10; i <= 50; i++) {
   if (prime && i > 1) console.log(i);
 }
 console.log("-----------------------");
+
 // 7. Filter names that start with vowels. Input: ["Alice", "Bob", "Eve", "Uma", "Charlie"] Output: ["Alice", "Eve", "Uma"]
 
 let names = ["Alice", "Bob", "Eve", "Uma", "Charlie"];
