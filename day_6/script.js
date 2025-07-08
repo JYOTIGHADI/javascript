@@ -44,3 +44,4 @@ let ages = [10, 18, 22, 15];
 let adults = ages.filter(a => a >= 18);
 console.log(adults); 
 console.log("-----------------------");
+
