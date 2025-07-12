@@ -8,7 +8,6 @@ myfirstfunction();
 let a = 20;
 let b = 50;
 
-
 function addition() {
     console.log(a + b)
 }
@@ -49,7 +48,6 @@ function additionoftwovariable( a , b){
 }
  console.log(additionoftwovariable(100, 300));
  console.log(additionoftwovariable(10, 50));
-
 
 //  Q. array parameter
 
