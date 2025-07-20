@@ -32,7 +32,7 @@ console.log(message);
 
 // using object
 let person = {
-  name: "Jyoti",
+  Username: "Jyoti",
   age: 22
 };
 
